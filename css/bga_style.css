@@ -1,0 +1,25 @@
+html,body{
+  height: 100%;
+}
+div{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+  .img1{
+    background-image: url(https://img2.daumcdn.net/thumb/R430x0.q70/?fname=https://t1.daumcdn.net/news/201903/07/newsen/20190307062502881wvvz.jpg);
+  }
+  .img2{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuotq3DiOTL9jqzimCHEVSM278DIvNnKJlZorRhEjILW1a7i2s);
+  }
+  .img3{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3KxPgTD0yYSvLkB1JZv8vW8MH2Rr27IVI567KztCQ4pDIjHGk);
+  }
+  .img4{background-image: url(https://i.smalljoys.me/2019/06/z-10.jpg?resize=1200,630);
+  }
+  .img5{background-image: url(http://img.asiatoday.co.kr/file/2019y/01m/10d/20190110001349522_1547096598_1.jpg);
+  }
+  .img6{background-image: url(http://talkimg.imbc.com/TVianUpload/TVian/TViews/image/2018/12/02/oswgnlxkfeht636793516720189819.jpg);
+  }
+
+.fixed{
+  background-attachment: fixed;
+}
