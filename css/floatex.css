@@ -1,0 +1,29 @@
+
+
+.article{
+  width:480px;
+  height:191px;
+  }
+
+.article h2{
+  margin:0 0 16px 0;
+  font-size: 25px;
+  white-space:nowrap;
+
+  overflow: hidden;
+  text-overflow: ellipsis;}
+
+  .contents{
+    font-size:13px;
+    height:122px;
+    overflow:hidden;
+    /* padding-left:10px */
+    margin-left:231px;}
+  .contents p{margin:0;}
+
+  .thumbnail{
+    width: 221px;
+    height: 122px;
+
+    float:left;
+  }

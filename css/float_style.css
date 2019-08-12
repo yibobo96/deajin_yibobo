@@ -1,0 +1,12 @@
+div{border:1px #F00 solid;}
+.a{
+  width:100px;
+  height:100px;
+  float:left;
+  }
+.b{
+  float:left;
+  width: 500PX;
+}
+
+body{border:2px #F00 solid;}

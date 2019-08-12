@@ -1,0 +1,12 @@
+.a-font{
+  font-size:50px;
+  font-family:'궁서','돋움';
+  font-weight:100;
+  font-style:italic;
+  line-height:30px;
+  color:#F00;
+  letter-spacing:10px;
+  font-family: 'Nanum Brush Script', cursive;
+}
+
+span{color:initial;}

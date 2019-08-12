@@ -1,0 +1,25 @@
+div{outline: 1px #00F solid}
+
+.article{
+  width:480px;
+  height:191px;
+  outline:1px #F00 solid;
+}
+
+.article h2{
+  font-size: 25px;
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.thumbnail{
+  width: 221px;
+  height: 122px;
+  float:left;
+  outline: 1px #F00 solid;
+}
+
+.contents{
+  font-size: 13px;
+}
