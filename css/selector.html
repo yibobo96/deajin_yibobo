@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+    /* a:link{color:#000}
+    a:visited{color:red}
+    a:active{color:green}
+    a:hover{color:#FF0}
+
+    .name:after{
+      content:"님"
+    }
+    .name:before{
+      content:"환영합니다."
+    } */
+
+    input[type="text"]{color:red}
+
+    a[href="http://"]{color:red}
+
+    #menu>ul>li:nth-child(even){border:1px #F00 solid}
+  </style>
+
+</head>
+<body>
+
+  <div id="menu">
+    <ul>
+      <li>menu item01
+        <ul>
+          <li><a href="http://www.naver.com">Hello world</a></li>
+          <li class="sub on">menu item02</li>
+          <li>menu item03</li>
+          <li class="sub">menu item04</li>
+          <li class="sub">menu item05</li>
+        </ul>
+      </li>
+      <li id="target"><input type="button" value="hello world"></li>
+      <li><input type="text" title="this is form"></li>
+      <li><input type="text" title="this is form"></li>
+      <li>
+        <span class="name">보연쓰</span></li>
+    </ul>
+  </div>
+
+</body>
+</html>
