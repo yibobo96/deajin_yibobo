@@ -1,6 +1,6 @@
 .bg{ /*border: 1px #F00 solid;*/ height: 540px; width: 900px; background: url(https://ssl.pstatic.net/static/newsstand/img/20121231/bg_panel.png) 50% 0 no-repeat; margin: 0 auto; padding: 0 50px; }
 
-.hearder{ /*border: 1px #00F solid;*/ width: 900px; height: 105px; padding-top: 20px; margin: 0 30px; box-sizing: border-box; /* box-sizing: border-box; */  border-bottom: 2px #000 solid; }
+.hearder{ /*border: 1px #00F solid;*/ width: 900px; height: 105px; padding-top: 20px; padding-left: 30px;  box-sizing: border-box; /* box-sizing: border-box; */  border-bottom: 2px #000 solid; }
     .banner{ /*border: 1px #000 solid;*/ width: 468px; height: 60px; padding-right: 60px; float:right; }
     .logo{ /*border: 1px #F00 solid;*/ width: 260px; height: 55px; /* margin: 20px 0 0 30px; */ background: url(https://ssl.pstatic.net/static/newsstand/up/2013/0813/nsd111025525.gif); float: left; }
 
