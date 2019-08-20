@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script>
+  var Answer = null;
+  //섞기기능
+  function sherple(){
+   var rdmGen = Math.random() * 10;
+   rdmGen = Math.floor(rdmGen)
+   var AnswerNum = rdmGen % 2;
+   if(AnswerNum == 0){
+     Answer = "짝"
+   } else if(AnswerNum == 1){
+     Answer = "홀"
+  }
+}
+console.log("접기가 완료되었슴다")
+//답 맞추기 기능
+ function answer(){
+  var userAn = prompt('정답을 작성하세요')
+  if(userAn == Answer){
+    console.log("정답~")
+  }else if (userAn != Answer){
+    console.log("오답쓰 "+Answer+" 이지롱")
+  }
+}
+  </script>
+</head>
+<body>
+  <button onelick="sherple()">섞어라</button>
+  <button onelick="answer()">유후</button>
+</body>
+</html>

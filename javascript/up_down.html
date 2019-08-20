@@ -1,0 +1,45 @@
+
+<!--
+  1. 랜덤 숫자를 생성한다.
+  2. 게임 횟수에 대한 제한을 건다.
+  3. 숫자를 입력할 수 있는 입력창을 만든다.
+  4. 정답여부를 알려준다.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script>
+    // 1. 랜덤 숫자를 생성한다.
+    var ranNum = Math.floor(Math.random() * 50)+1;
+    console.log(ranNum)
+
+    // 2. 게임 횟수에 대한 제한을 건다.
+    var count = 5;
+    // 3. 숫자를 입력할 수 있는 입력창을 만든다.
+    for(var i=0; i<count; i++){
+      var userNumber = prompt("숫자를 입력하시게")
+      if(ranNum < userNumber){
+        alert("다운")
+      } else if (ranNum > userNumber) {
+        alert("업")
+      } else if (ranNum == userNumber) {
+        alert("정답")
+        break;
+      } else {
+        alert("올바른 값을 입력하시오. 한번의 기회가 사라졌네")
+      }
+    }
+    // 4. 정답여부를 알려준다.
+
+
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>

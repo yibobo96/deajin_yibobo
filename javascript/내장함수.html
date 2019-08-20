@@ -1,0 +1,55 @@
+<!--
+  아무숫자를 만든다.
+  숫자를 홀,짝으로 구분한다.
+  정답을 물어본다. -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+      var Answer = null;
+      // 섞기 기능
+      function sherple(){
+          var rdmGen = Math.random() * 10;
+          rdmGen = Math.floor(rdmGen);
+          var AnswerNum = rdmGen % 2;
+          if(AnswerNum == 0){
+            Answer = "짝"
+          } else if(AnswerNum == 1){
+            Answer = "홀"
+          }
+      }
+        console.log("접기가 완료되었습니다.")
+      // 정답 맞추기
+      function answer(){
+          var userAn = prompt('정답을 입력하시오.')
+          if(userAn == Answer){
+            document.write("정답입니다.")
+
+          } else if (userAn != Answer){
+            document.write("땡땡땡!!! 정답은 "+Answer+" 입니다.")
+          }
+      }
+      function MoneyCall(){
+        var money = prompt('걸어걸어');
+        document.getElementById('bank').innerHTML = money + "원"
+      }
+
+
+
+    </script>
+  </head>
+  <body>
+    <button type="button" onclick="MoneyCall()">판돈걸기</button>
+    <button onclick="sherple()">섞어</button>
+    <button onclick="answer()">맞춰</button>
+    <h1>status</h1>
+    <div> 판돈: </div>
+    <div id="bank"></div>
+
+  </body>
+  </html>
